@@ -1,14 +1,31 @@
-# analyzing_nyc_highschool_data
+# Analyzing New York City highschool data
 
-> TO DO: add a brief project description
+In this project, I investigate correlations between SAT (Scholastic Aptitude Test) scores and demographics like race, gender, income, and more.
 
-> TO DO: add comment about the data
+This project was a 'guided project' as part of learning data analytics with [Dataquest](https://www.dataquest.io).
 
-This is a 'guided project' that I did while learning Data Analytics in Python with DataQuest.
+## Results
 
-To see the result, simply click the .ipynb file above.
+To display the result, simply [click the .ipynb file](https://github.com/jasperquak/building_spam_filter_naive_bayes/blob/main/BuildingSpamFilterNaiveBayes.ipynb) in this repository. It will open in a Notebook viewer.
 
-You may, however, get to see "Sorry, something went wrong. Reload?" In that case:
-- copy the URL from the address bar in your browser
-- go to https://nbviewer.jupyter.org/
-- paste the URL
+## Reproduction
+
+In case you want to reproduce the project in a Jupyter Notebook in your own environment.
+
+Download both the .ipynb file and the .zip file. Unpack the zip file. Result should be a sub-folder */schools* under the folder containing the .ipynb file
+
+Before starting Jupyter Notebook, ensure that you have the following packages installed:
+* pandas
+* numpy
+* re
+* matplotlib.pyplot
+
+## About the data sources
+
+The data that is used in this study was originally published by:
+* [NYC Open Data](https://opendata.cityofnewyork.us/), Open data for all New Yorkers
+
+A simplified version was published by Dataquest and used for this study.
+
+See the contents of the Notebook for more details about the data used.
+
